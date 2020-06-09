@@ -1,0 +1,28 @@
+/* add your CSS here */
+div {
+    border: 1px solid gray;
+    padding: 10px;
+    
+}
+.animalImage {
+    width: 300px;
+    padding-bottom: 10px;
+}
+ul {
+    padding-inline-start: unset;
+}
+li{
+    list-style: none;
+    padding: 1px;
+}
+span {
+    font-weight: bold;
+}
+.interestingFact{
+   font-style: italic; 
+}
+.card{
+    box-shadow: 5px 10px lightgray;
+    width: 300px;
+    padding: 10px;
+}
