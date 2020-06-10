@@ -13,7 +13,7 @@ def intro(weapon, randomEnemy):
     talkToPlayer("You find yourself standing in an open field,"
                  " filled with grass and yellow wildflowers.")
     talkToPlayer("Rumor has it that a" + randomEnemy +
-            	 " is somewhere around here, and has"
+                 " is somewhere around here, and has"
                  " been terrifying the nearby village.")
     talkToPlayer("Enter 1 to knock on the door of the house.")
     talkToPlayer("Enter 2 to peer into the cave.")
@@ -62,7 +62,7 @@ def cave(weapon, randomEnemy):
         talkToPlayer("You walk back out to the field.")
         weapon.append("sword")
         # originally had weapon += "sword" .. used print to debug it XD
-    field(weapon, randomEnemy)
+        field(weapon, randomEnemy)
 
 
 def field(weapon, randomEnemy):
@@ -115,4 +115,5 @@ def play_game():
     field(weapon, randomEnemy)
 
 
-play_game()
+if __name__ == "__main__":
+    play_game()
