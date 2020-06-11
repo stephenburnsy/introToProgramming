@@ -2,15 +2,16 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Introduction](#Introduction)
+* [Created](#contributing)
 
-## Instructions
+## Introduction
 
-To get started, open `designs.js` and start building out the app's functionality.
+This is a small project where the user inputs a height and width to create a grid.
+When the grid is created they can click on the cells inside the grids rows/columns to change their color
+The user can choose which color they wish to use by changing the color in using colorpicker.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Created
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This project was created using the provided starter code through the Udacidy course. 
+As this was a JS project editing the html/css files was not necessary and only creating the javascript was required.
