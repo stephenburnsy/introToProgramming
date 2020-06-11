@@ -21,7 +21,7 @@ sizeForm.addEventListener("submit", function (event) {
 function makeGrid(height, width) {
     // Your code goes here!
     // So if there is a Grid already.. we kill it
-    var cell = 1;
+    var cell = 0;
     var table = "table" + cell;
     var row = document.getElementById(table);
     while (row !== null) {
@@ -36,12 +36,14 @@ function makeGrid(height, width) {
     // we could use a for loop here but I like while loops..
     var i = 0;
     var j;
-    while(i < height){
+    //  for(var i=0; i<height; i++){
+    while (i < height) {
         j = 0;
         // insert the table's row or column
         grid.insertAdjacentHTML("afterbegin", "<tr id = table" + i + "></tr>");
         var column = document.querySelector("#table" + i);
-        while(j < width){
+        // for(var f =1; f<width; f++){
+        while (j < width) {
             // insert the table's row or column
             column.insertAdjacentHTML("afterbegin", "<td id = cell" + i + j + "></td>");
             j++;
